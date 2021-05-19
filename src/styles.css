@@ -1,0 +1,16 @@
+.body {
+  background-color: teal;
+}
+.container {
+  min-width: 1280px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  /* text-align: center; */
+  margin: 15px 0;
+}
+
+

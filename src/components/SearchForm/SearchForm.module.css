@@ -1,0 +1,37 @@
+.searchForm {
+  outline: #770007 ;
+  margin-top: 15px;
+}
+
+.searchFormInput {
+  padding: 10px 15px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid #770007 ;
+  font-size: 18px;
+}
+.searchFormInput:focus,
+.searchFormInput:hover {
+  border: 2px solid #770007;
+  outline: transparent;
+}
+
+.searchFormButton {
+  display: inline-block;
+  margin-left: 20px;
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f2e7ce;
+  cursor: pointer;
+  background-color: #770007 ;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: transparent;
+}
+.searchFormInput::placeholder {
+  font: inherit;
+  font-size: 18px;
+  color: grey;
+}

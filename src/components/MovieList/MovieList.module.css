@@ -1,0 +1,19 @@
+.movieList {
+  list-style: none;
+}
+
+.movieListItem {
+  font-size: 20px;
+  padding: 5px 0;
+}
+.movieListLink {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.movieListLink:hover,
+.movieListLink:focus {
+  text-decoration: underline;
+  color: #770007;
+  font-weight: 500;
+}

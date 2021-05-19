@@ -1,0 +1,12 @@
+.movieReviewsList {
+  list-style: none;
+  padding: 0;
+}
+
+.movieReviewsListName {
+  font-weight: 500;
+}
+
+.movieReviewsListText {
+  width: 800px;
+}

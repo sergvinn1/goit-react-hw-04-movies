@@ -1,0 +1,21 @@
+.NavigationList {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.NavigationListItem {
+  flex-basis: 200px;
+  padding: 15px 0;
+  text-align: center;
+}
+.NavigationListLink {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #edc059;
+}
+.NavigationListActiveLink {
+  color: #f2e7ce;
+  text-decoration: underline;
+}
